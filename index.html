@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>Zomato</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar_brand">
+          <img src="./Assets/logo.png" alt="zomato" class="brand_logo" />
+        </div>
+        <ul>
+          <li>
+            <a href="#"><button>Log In</button> </a>
+          </li>
+          <li>
+            <a href="#"><button>Sign Up</button></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="home">
+      <h1 class="main_heading">Zomato</h1>
+      <h3 class="tag_heading">Discover the best foods & drinks</h3>
+      <div class="search_container">
+          <div class="flex_container">
+              <div class="location_icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="dropdown_container">
+                  <select name="location" id="locationSelect" class="location_dropdown" >
+                      <option value="visakhapatnam">Visakhapatnam</option selected>
+                      <option value="hyderabad">Hyderabad</option>
+                      <option value="vijayawada">Vijayawada</option>
+                      <option value="guntur">Guntur</option>
+                      <option value="eastgodavari">East Godavari</option>
+                      <option value="srikakulam">Srikakulam</option>
+                    </select>
+                </div>
+            </div>
+                <div class="separator"></div>
+                <div class="restaurant_search">
+                    <div class="flex_restaurant">
+                        <div class="search_icon">
+                            <i class="fal fa-search"></i>
+                        </div>
+                        <input type="text" placeholder="Search For..." class="search" size="20" />
+                    </div>
+                </div>
+      </div>
+    </section>
+    <main>
+        <section>
+        <div class="container">
+            <div class="container_restaurant">
+                <div class="items_row">
+                    <div class="box">
+                        <img src="./Assets/meal.jpg" alt="meal" class="rest1">
+                        <div class="info">
+                            <h3>Meal Cage</h3>
+                            <p>Meals,Curry</p>
+                            <button>3.5</button>
+                            <button>&#8377 170</button> 
+                            <button><a href="#"></a> Order</button>
+                        </div>
+                    </div>
+                    <div class="box"><img src="./Assets/non_bir.jpg" alt="non_bir" class="rest2">
+                        <div class="info">
+                            <h3>Biryani Palace</h3>
+                            <p>Veg,Non-veg</p>
+                            <button>3.9</button>
+                            <button>&#8377 250</button>
+                            <button><a href="#"></a> Order</button>
+                        </div>
+                    </div>
+                    <div class="box"><img src="./Assets/rolls.jpg" alt="rolls" class="rest3">
+                        <div class="info">
+                            <h3>Spice Up</h3>
+                            <p>Indian,Chinese</p>
+                            <button>3.6</button>
+                            <button>&#8377 270</button>
+                            <button><a href="#"></a> Order</button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="./Assets/pizzas.jpg" alt="pizzas" class="rest4">
+                        <div class="info">
+                            <h3>Dominos Pizza</h3>
+                            <p>Pizzas</p>
+                            <button>4.0</button>
+                            <button>&#8377 199</button>
+                            <button><a href="#"></a> Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container_restaurant">
+                <div class="items_row">
+                    <div class="box">
+                        <img src="./Assets/curry.jpg" alt="curry" class="rest1">
+                        <div class="info">
+                            <h3>Indian Curry</h3>
+                            <p>Non-veg,Veg</p>
+                            <button>4.1</button>
+                            <button>&#8377 140</button>
+                            <button><a href="#"></a> Order</button>
+                        </div>
+                    </div>
+                    <div class="box"><img src="./Assets/thickshake.jpg" alt="thickshake" class="rest2">
+                        <div class="info">
+                            <h3>Thick Wave</h3>
+                            <p>Thickshakes</p>
+                            <p>
+                                <button>4.1</button>
+                                <button>&#8377 170</button>
+                                <button><a href="#"></a> Order</button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box"><img src="./Assets/dhaba.jpg" alt="dhaba" class="rest3">
+                        <div class="info">
+                            <h3>Indie Yum</h3>
+                            <p>Roti,Biryani</p>
+                            <button>3.9</button>
+                            <button>&#8377 210</button>
+                            <button><a href="#"></a> Order</button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="./Assets/breakfast.jpg" alt="breakfast" class="rest4">
+                        <div class="info">
+                            <h3>South Spice</h3>
+                            <p>Veg,Non-veg </p>
+                            <button>3.8</button>
+                            <button>&#8377 120</button>
+                            <button><a href="#"></a> Order</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="load_more"><a href="#">Load More...</a></div>
+                <hr>
+            </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <div class="policy">
+            <div class="logo"><img src="./Assets/logo.PNG" alt="logo"></div>
+            <div>
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Report Fraud</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>For Foodstuffs</h3>
+                <ul>
+                    <li><a href="#">Code of Conduct</a></li>
+                    <li><a href="#">Blogger help</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Mobile Apps</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>For Resturants</h3>
+                <ul>
+                    <li><a href="#">Add Resturant</a></li>
+                    <li><a href="#">Business App</a></li>
+                    <li><a href="#">Resturant Widgets</a></li>
+                    <li><a href="#">Product for Businesses</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>For You</h3>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">SiteMap</a></li>
+                </ul>
+            </div>
+
+            <div class="socials">
+                <h3>Social Links</h3>
+                <p>
+                    <a href="#" ><i class="fab fa-instagram"></i></a>
+                    <a href="#" ><i class="fab fa-linkedin"></i></a>
+                    <a href="#" ><i class="fab fa-facebook"></i></a>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy,
+            Privacy Policy and Content Policies. All trademarks are properties of their respective owners.
+            2008-2021 © Zomato™ Ltd. All rights reserved.
+        </p>
+
+
+    </footer>
+  </body>
+</html>
